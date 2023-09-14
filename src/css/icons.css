@@ -1,0 +1,117 @@
+:root {
+    --icon-size: 1.6rem;
+    --icon-post-size: 1.6rem;
+    --user-pict: url(../jpg/375A8064.jpg);
+}
+
+.li-accueil {
+    display: flex;
+    content: url(../svg/home-ico.svg);
+    height: var(--icon-size);
+}
+
+.li-recherche {
+    display: flex;
+    content: url(../svg/search-ico.svg);
+    height: var(--icon-size);
+}
+
+.li-decouvrir {
+    display: flex;
+    content: url(../svg/compass-ico.svg);
+    height: var(--icon-size);
+}
+
+.li-reel {
+    display: flex;
+    content: url(../svg/reel-ico.svg);
+    height: var(--icon-size);
+}
+
+.li-message {
+    display: flex;
+    content: url(../svg/message-ico.svg);
+    height: var(--icon-size);
+}
+.li-notification {
+    display: flex;
+    content: url(../svg/like-ico.svg);
+    height: var(--icon-size);
+}
+
+.li-creer {
+    display: flex;
+    content: url(../svg/create-ico.svg);
+    height: var(--icon-size);
+}
+
+.li-profil {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 100%;
+    content: var(--user-pict);
+    height: var(--icon-size);
+}
+
+.li-plus {
+    display: flex;
+    content: url(../svg/menu-ico.svg);
+    height: var(--icon-size);
+}
+
+.post-like-button {
+    display: flex;
+    content: url(../svg/like-ico.svg);
+    height: var(--icon-post-size);
+}
+
+.post-comment-button {
+    display: flex;
+    content: url(../svg/comment-ico.svg);
+    height: var(--icon-size);
+}
+
+.post-share-button {
+    display: flex;
+    content: url(../svg/share-ico.svg);
+    height: var(--icon-size);
+}
+.post-save-button {
+    display: flex;
+    content: url(../svg/save-ico.svg);
+    height: var(--icon-size);
+}
+.logo-mobile {
+        
+    content: url(../svg/Instagram-logo.svg);
+    height: 2rem;
+    margin-left:1rem;
+
+}
+@media screen and (min-width: 900px) {
+
+    .logo {
+        
+        content: url(../svg/Instagram-logo.svg);
+        height: 2rem;
+        margin: 0.4rem 0 2rem 0.4rem;
+        
+        
+    }
+}
+@media screen and (max-width: 949px) {
+
+    .logo {
+        display: flex;
+        content: url(../svg/Instagram-favicon.svg);
+        justify-content: center;
+        align-content: center;
+        height: 2rem;
+        
+        margin: 0 0 2rem 0.4rem;
+        
+    }
+   
+
+   
+}

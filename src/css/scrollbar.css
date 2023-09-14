@@ -1,0 +1,28 @@
+:root {
+    --color-scrollbar-track: #202020;
+
+
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-scrollbar-track);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    
+    height: 0.5rem;
+}
+
+*::-webkit-scrollbar-track {
+    background: none;
+    
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--color-scrollbar-track);
+    border-radius: 0.5rem;
+
+}
