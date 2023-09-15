@@ -31,7 +31,7 @@
 }
 .post-user-content{
     display: flex;
-    
+    content: url(../gif/rick-roll.gif);
     background-color: #ffffff;
     width: 35rem;
     height: 35rem;
@@ -79,6 +79,7 @@
        width: auto;
     }
     .post-user-pict {
+        
         display: flex;
         height: 2rem;
         width: 2rem;
