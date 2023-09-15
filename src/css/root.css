@@ -1,0 +1,37 @@
+
+:root {
+    /* Body */
+    --body-background: #000000;
+    --font-family: 'Roboto', sans-serif;
+
+    /*Navbar*/
+    --color-nav-text: #ffffff;
+    --color-nav-border: #202020;
+    --color-li-box-hover: #151515;
+    --color-li-text: #ffffff;
+    --color-li-text-hover: #000000;
+
+    /*Scrollbar parameters*/
+    --color-scrollbar-track: #202020;
+
+    /* Icons Parameters*/
+    --icon-size: 1.6rem;
+    --icon-post-size: 1.6rem;
+    --user-pict: url(../jpg/375A8064.jpg);
+
+    /*Content*/
+    --color-text: #ffffff;
+    --color-hr-line: #202020;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: var(--body-background);
+    
+}

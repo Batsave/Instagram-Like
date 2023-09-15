@@ -1,8 +1,3 @@
-:root {
-    --icon-size: 1.6rem;
-    --icon-post-size: 1.6rem;
-    --user-pict: url(../jpg/375A8064.jpg);
-}
 
 .li-accueil {
     display: flex;
@@ -88,7 +83,7 @@
     margin-left:1rem;
 
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 950px) {
 
     .logo {
         

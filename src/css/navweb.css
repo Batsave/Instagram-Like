@@ -1,28 +1,3 @@
-:root {
-    --body-background: #000000;
-    --font-family: 'Roboto', sans-serif;
-
-    /*Navbar*/
-    --color-nav-text: #ffffff;
-    --color-nav-border: #202020;
-    --color-li-box-hover: #151515;
-    --color-li-text: #ffffff;
-    --color-li-text-hover: #000000;
-
-
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-
-}
-
-body {
-    background-color: var(--body-background);
-    
-}
 
 
 @media screen and (min-width: 1260px) {
