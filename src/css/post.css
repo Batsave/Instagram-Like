@@ -1,90 +1,28 @@
-
 /*Post Section*/
 
 @media screen and (min-width: 715px) {
-    
-.post-main {
-    display: flex;
-    flex-direction: column; 
-    gap: 0.5rem;
-    width: 70ch;
-    margin-top: 1rem;
-}
-.post-user-info {
-   display:flex;
-   gap: 1rem;
-   width: auto;
-}
-.post-user-pict {
-    display: flex;
-    height: 2rem;
-    width: 2rem;
-    border-radius: 100%;
-}
-.post-user-name {
-    display: flex;
-    align-items: center;
-    font-family: var(--font-family);
-    color: var(--color-text);
-    font-size: 1rem;
-    font-weight: 300;
-}
-.post-user-content{
-    display: flex;
-    content: url(../gif/rick-roll.gif);
-    background-color: #ffffff;
-    width: 35rem;
-    height: 35rem;
-}
 
-
-
-.post-like-bar {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-
-}
-.post-like-bar-section {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    gap:0.8rem;
-    align-content: center;
-}
-
-.post-user-desc {
-    display: flex;
-    align-items: center;
-    font-family: var(--font-family);
-    color: var(--color-text);
-    font-size: 1rem;
-    font-weight: 300;
-    margin-bottom:2rem ;
-}
-}
-
-@media screen and (max-width: 714px) {
-    
     .post-main {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
         gap: 0.5rem;
-        width: 90vw;
+        width: 70ch;
         margin-top: 1rem;
     }
+
     .post-user-info {
-       display:flex;
-       gap: 1rem;
-       width: auto;
+        display: flex;
+        gap: 1rem;
+        width: auto;
     }
+
     .post-user-pict {
-        
         display: flex;
         height: 2rem;
         width: 2rem;
         border-radius: 100%;
     }
+
     .post-user-name {
         display: flex;
         align-items: center;
@@ -93,29 +31,32 @@
         font-size: 1rem;
         font-weight: 300;
     }
-    .post-user-content{
+
+    .post-user-content {
         display: flex;
+        content: url(../gif/rick-roll.gif);
         background-color: #ffffff;
-        width: 90vw;
-        height: calc(90vw);
+        width: 35rem;
+        height: 35rem;
     }
-    
-    
-    
+
+
+
     .post-like-bar {
         display: flex;
         flex-direction: row;
         width: 100%;
-    
+
     }
+
     .post-like-bar-section {
         display: flex;
         flex-direction: row;
         width: 100%;
-        gap:0.8rem;
+        gap: 0.8rem;
         align-content: center;
     }
-    
+
     .post-user-desc {
         display: flex;
         align-items: center;
@@ -123,6 +64,75 @@
         color: var(--color-text);
         font-size: 1rem;
         font-weight: 300;
-        margin-bottom:2rem ;
+        margin-bottom: 2rem;
     }
+}
+
+@media screen and (max-width: 714px) {
+
+    .post-main {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 90vw;
+        margin-top: 1rem;
     }
+
+    .post-user-info {
+        display: flex;
+        gap: 1rem;
+        width: auto;
+    }
+
+    .post-user-pict {
+
+        display: flex;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 100%;
+    }
+
+    .post-user-name {
+        display: flex;
+        align-items: center;
+        font-family: var(--font-family);
+        color: var(--color-text);
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .post-user-content {
+        content: url(../gif/rick-roll.gif);
+        display: flex;
+        background-color: #ffffff;
+        width: 90vw;
+        height: calc(90vw);
+    }
+
+
+
+    .post-like-bar {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+    }
+
+    .post-like-bar-section {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 0.8rem;
+        align-content: center;
+    }
+
+    .post-user-desc {
+        display: flex;
+        align-items: center;
+        font-family: var(--font-family);
+        color: var(--color-text);
+        font-size: 1rem;
+        font-weight: 300;
+        margin-bottom: 2rem;
+    }
+}
